@@ -15,7 +15,7 @@ recognition.continuous = true
 
 function generateResponse(prompt) {
   const apiUrl = 'https://api.openai.com/v1/engines/davinci-codex/completions';
-  const apiKey = 'YOUR_OPENAI_API_KEY';
+  const apiKey = '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';
 
   return fetch(apiUrl, {
     method: 'POST',
